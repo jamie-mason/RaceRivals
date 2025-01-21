@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2a0e8e8e-205f-4a5e-8978-0b9db6265bd1}">
+		<property name="name">
+			<value>PanToPlayer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d2e4ac17-9215-4681-b623-54202f1d8b01}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a709635f-227f-4bfd-a462-878b744a2eb4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a709635f-227f-4bfd-a462-878b744a2eb4}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

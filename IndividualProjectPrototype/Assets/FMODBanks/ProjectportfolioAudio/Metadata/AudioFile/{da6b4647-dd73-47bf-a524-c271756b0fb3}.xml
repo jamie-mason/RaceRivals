@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{da6b4647-dd73-47bf-a524-c271756b0fb3}">
+		<property name="assetPath">
+			<value>QuitSoundEffect.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.85263038548752834</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2a4520de-b4fa-464c-af84-78df11aa6710}</destination>
+		</relationship>
+	</object>
+</objects>

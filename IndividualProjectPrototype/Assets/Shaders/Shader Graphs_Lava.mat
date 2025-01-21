@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Lava
+  m_Shader: {fileID: -6465566751694194690, guid: 087fb1bd1dcf2be44a64cda03b5131c8, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BUILTIN_ALPHATEST_ON
+  - _BUILTIN_AlphaClip
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LavaEmission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaNormals:
+        m_Texture: {fileID: 2800000, guid: d3885c74a9c3e4241853dbf2c341ae9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LavaTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lava_Color_map:
+        m_Texture: {fileID: 2800000, guid: 3115d146af3ca0944a7e2f6adf4bf71c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lava_Roughness_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: 7b08a90ea655f16458ace6858feee8e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_d4994701d4434dc79ce440e34a281ca4_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 3115d146af3ca0944a7e2f6adf4bf71c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Amplitude: 0
+    - _BUILTIN_AlphaClip: 1
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 0
+    - _BUILTIN_DstBlend: 0
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_SrcBlend: 1
+    - _BUILTIN_Surface: 0
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 1
+    - _BUILTIN_ZWriteControl: 0
+    - _EmissionIntensity: 1
+    - _Frequency: 0
+    - _Gloss: 1
+    - _HeightScale: 0.1
+    - _LavaBumpScale: 1
+    - _Metallic: 0.39
+    - _Smoothness: 0
+    - _ToggleTextures: 1
+    - _waveSpeed: 0
+    m_Colors:
+    - _LavaBaseColour: {r: 0.2528302, g: 0.2528302, b: 0.2528302, a: 1}
+    - _LavaEmissionColour: {r: 0, g: 0, b: 0, a: 1}
+    - _LavaNormalSpeed: {r: 0, g: -10, b: 0, a: 0}
+    - _LavaScale: {r: 55, g: 400, b: 0, a: 0}
+    - _LavaSpeed: {r: 0, g: -10, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &4330145280876909554
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0

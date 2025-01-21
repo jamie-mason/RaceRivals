@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e44584f1-1640-4033-82b2-08e14ac890e8}">
+		<property name="name">
+			<value>SirenVolume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d2e4ac17-9215-4681-b623-54202f1d8b01}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b064f352-295d-4579-9ac1-9e5939380952}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b064f352-295d-4579-9ac1-9e5939380952}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

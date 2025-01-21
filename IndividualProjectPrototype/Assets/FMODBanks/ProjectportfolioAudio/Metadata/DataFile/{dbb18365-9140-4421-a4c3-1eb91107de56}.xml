@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{dbb18365-9140-4421-a4c3-1eb91107de56}">
+		<property name="assetPath">
+			<value>Assets/siren-alert2</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2a4520de-b4fa-464c-af84-78df11aa6710}</destination>
+		</relationship>
+	</object>
+</objects>

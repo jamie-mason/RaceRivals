@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{6f885c40-6942-4a12-a940-d0d3c404899a}">
+		<property name="name">
+			<value>LowFrequency</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d2e4ac17-9215-4681-b623-54202f1d8b01}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6f57d550-0b73-4d6b-961b-c56cd8719e2b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6f57d550-0b73-4d6b-961b-c56cd8719e2b}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

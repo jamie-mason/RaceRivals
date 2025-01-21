@@ -1,0 +1,8 @@
+{51746b4f-b755-4a61-b4c5-2a4355d1d1db} bank:/Master
+{c9694b9b-c62e-0623-328c-a0bda422d743} bank:/Master.strings
+{e6f261d2-b39e-4371-afdb-3ce8a7e713c6} bus:/
+{b0c060ab-5566-497d-94a1-1f646c83e6f8} bus:/Reverb
+{4c19fec7-1ac6-4e86-847f-ac1ac466f338} event:/CarEngineAudio
+{f543e83f-49d8-415f-9cac-867e0f51a823} event:/CarEngineMulti
+{f570ef5b-3f77-4aa2-b875-d7b7bfc9bf7b} parameter:/InstrumentIndex
+{6607e014-66f8-4bbd-974a-df16c52efd82} parameter:/pitch

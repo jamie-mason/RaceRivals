@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d46a32b3-83cd-415a-ae19-09d07b2d115d}">
+		<property name="name">
+			<value>TireVibrationPitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d2e4ac17-9215-4681-b623-54202f1d8b01}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c5e6f667-9c81-4997-aca0-c0774b7afcd6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c5e6f667-9c81-4997-aca0-c0774b7afcd6}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
